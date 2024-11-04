@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Oracle" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="Oracle">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/MusicDemo.sln" web="/" />
+            <mapping local="$PROJECT_DIR$/MusicDemo.csproj" web="/" />
+            <mapping local="$PROJECT_DIR$/obj/Debug/net7.0/MusicDemo.GlobalUsings.g.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/obj/Debug/net7.0/MusicDemo.AssemblyInfo.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/obj/Debug/net7.0/MusicDemo.GeneratedMSBuildEditorConfig.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$/Program.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/.gitignore" web="/" />
+            <mapping local="/usr/share/dotnet/sdk/7.0.103/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_7_default.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$/AudioFetcher.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/AngleHelper.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/SlashCommands.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/QueueSystem.cs" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

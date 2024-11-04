@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="24efb6a4-4c28-4ac3-ace6-a88292309e1c" name="Oracle">
+        <fileTransfer rootFolder="/opt/music/" accessType="SFTP" host="oracle.sussy.tech" port="22" sshConfigId="6836be1b-914e-4d6e-9f83-c65b6b31702d" sshConfig="theairblow@oracle.sussy.tech:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

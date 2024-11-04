@@ -1,0 +1,21 @@
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script:
+    - "dotnet publish MusicDemo.sln --no-self-contained -c Release -r linux-x64"
+  artifacts:
+    paths:
+      - bin/Release/net8.0/linux-x64
+
+deploy:
+  stage: deploy
+  environment: production
+  script:
+    - sudo systemctl stop MusicDemo
+    - cp -r bin/Release/net8.0/linux-x64/publish/* /home/gitlab-runner/MusicDemo/
+    - sudo systemctl start MusicDemo
+  dependencies:
+    - build
